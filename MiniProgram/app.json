@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/anthor/anthor"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#83AF9B",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的世界",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/about/about",
+      "text": "夏天的味道",
+      "iconPath": "assert/img/我的世界/Shorts_pants.png",
+      "selectedIconPath": "assert/img/我的世界/Tee_shirt.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "井水的味道",
+      "iconPath": "assert/img/我的世界/Jeans_pants.png",
+      "selectedIconPath": "assert/img/我的世界/Camisole_vest.png"
+    },{
+      "pagePath":"pages/anthor/anthor",
+      "text":"获取登录授权",
+      "iconPath":"assert/img/我的世界/Jeans_pants.png",
+      "selectedIconPath":"assert/img/我的世界/Camisole_vest.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<!--pages/about/about.wxml-->
+<view>hello,{{name}}</view>
+<view wx:for = "{{studens}}">{{item.name}}-{{item.age}}</view>
+<view>当前数为：{{count}}</view>
+<button bindtap="add">+</button>
+<button bindtap="reduce">-</button>
+<button
+        open-type="getUserInfo"
+        bindgetuserinfo="handgetUserInfo">
+        是否授权
+</button>
