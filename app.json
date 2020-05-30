@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#83AF9B",
+    "navigationBarTitleText": "北方馒头",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true,
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/imagess/Jacket_uniform.png",
+        "selectedIconPath": "assets/imagess/Jacket_uniform.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/imagess/Shorts_pants.png",
+        "selectedIconPath": "assets/imagess/Shorts_pants.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/imagess/Jeans_pants.png",
+        "selectedIconPath": "assets/imagess/Jeans_pants.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/imagess/Camisole_vest.png",
+        "selectedIconPath": "assets/imagess/Camisole_vest.png"
+      }
+    ]
+  }
+}
